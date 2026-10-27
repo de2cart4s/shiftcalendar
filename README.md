@@ -70,24 +70,7 @@ ShiftCalendar — это приложение для работников со �
 
 ## Структура проекта
 
-app/src/main/java/com/eskin/shiftcalendar/
-├── MainActivity.kt — точка входа, нижнее меню
-├── data/ — слой данных
-│ ├── DateUtils.kt — утилиты работы с датами
-│ ├── DayCell.kt — модель ячейки календаря
-│ ├── ScheduleConfig.kt — модель графика
-│ └── PreferencesRepository.kt — SharedPreferences
-└── ui/ — слой представления
-├── ShiftViewModel.kt — общая ViewModel
-├── calendar/ — экран календаря
-├── day/ — шторка деталей дня
-├── notes/ — список заметок
-├── stats/ — экран статистики
-├── schedule/ — выбор/создание графика
-├── settings/ — экран настроек
-├── holidays/ — управление праздниками
-├── about/ — о приложении
-└── onboarding/ — приветственный экран
+![Структура](screenshots/structure.png)
 
 
 ## Реализованные экраны (10+)
