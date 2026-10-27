@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="soft_blue">#93B5C6</color>
+    <color name="soft_blue_dark">#7A9BB0</color>
+    <color name="sandy_yellow">#E3C58E</color>
+    <color name="sandy_yellow_dark">#C9A96E</color>
+    <color name="bg_warm">#FDFBF7</color>
+    <color name="card_white">#FFFFFF</color>
+    <color name="text_dark">#2C3E50</color>
+    <color name="text_muted">#8A97A3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
