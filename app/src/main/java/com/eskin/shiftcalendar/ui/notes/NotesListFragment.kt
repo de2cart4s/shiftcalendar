@@ -26,7 +26,7 @@ class NotesListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         adapter = NotesAdapter { key ->
-            DayDetailsSheet.newInstance(key).show(childFragmentManager, "day_details")
+            DayDetailsSheet.newInstance(key).show(requireActivity().supportFragmentManager, "day_details")
         }
         binding.notesList.layoutManager = LinearLayoutManager(requireContext())
         binding.notesList.adapter = adapter

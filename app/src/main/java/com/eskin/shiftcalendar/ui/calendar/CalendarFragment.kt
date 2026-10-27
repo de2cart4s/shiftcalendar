@@ -60,9 +60,7 @@ class CalendarFragment : Fragment() {
     }
 
     private fun showDayDialog(key: String) {
-        fun showDayDialog(key: String) {
-            DayDetailsSheet.newInstance(key).show(childFragmentManager, "day_details")
-        }
+        DayDetailsSheet.newInstance(key).show(requireActivity().supportFragmentManager, "day_details")
     }
 
     private fun showScheduleDialog() {

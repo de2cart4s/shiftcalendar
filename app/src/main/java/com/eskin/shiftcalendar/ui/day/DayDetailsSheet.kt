@@ -26,6 +26,8 @@ class DayDetailsSheet : BottomSheetDialogFragment() {
     private var dayKey: String = ""
     private var selectedWork: Boolean = true
 
+    override fun getTheme(): Int = R.style.Theme_ShiftCalendar_BottomSheet
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _binding = SheetDayDetailsBinding.inflate(inflater, container, false)
         return binding.root

@@ -9,4 +9,20 @@
         <item name="colorOnSurface">@color/text_dark</item>
     </style>
     <style name="Theme.ShiftCalendar" parent="Base.Theme.ShiftCalendar" />
+    <style name="Theme.ShiftCalendar.BottomSheet" parent="Theme.Material3.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="bottomSheetStyle">@style/Widget.ShiftCalendar.BottomSheet</item>
+    </style>
+
+    <style name="Widget.ShiftCalendar.BottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="shapeAppearance">@style/ShapeAppearance.ShiftCalendar.BottomSheet</item>
+    </style>
+
+    <style name="ShapeAppearance.ShiftCalendar.BottomSheet" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">20dp</item>
+        <item name="cornerSizeTopRight">20dp</item>
+    </style>
 </resources>
