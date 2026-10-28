@@ -10,7 +10,7 @@ ShiftCalendar — это приложение для работников со �
 
 ## Дизайн-макет
 
-Интерактивный прототип в Pixso: [ссылка на макет]([https://ваша-ссылка-на-pixso](https://pixso.net/app/design/9Aq5FrND52pDUlghZjuVcw?icon_type=1&page-id=0%3A1))
+Интерактивный прототип в Pixso: [ссылка на макет](https://pixso.net/app/design/9Aq5FrND52pDUlghZjuVcw?icon_type=1&page-id=0%3A1)
 
 Цветовая палитра:
 - Мягкий синий `#93B5C6` — рабочие дни
@@ -53,7 +53,7 @@ ShiftCalendar — это приложение для работников со �
 4. Установите APK
 
 ### Вариант 2: Сборка из исходников
-1. Клонируйте репозиторий: `git clone https://github.com/ВАШ_ЛОГИН/shiftcalendar.git`
+1. Клонируйте репозиторий: `git clone https://github.com/de2cart4s/shiftcalendar.git`
 2. Откройте проект в Android Studio Rabbit
 3. Дождитесь синхронизации Gradle
 4. Запустите на эмуляторе или физическом устройстве
